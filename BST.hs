@@ -1,3 +1,7 @@
+-- A simple BST Implementation in haskell.
+
+
+
 data Bst a = Nil | Node a (Bst a) (Bst a) deriving (Show, Eq, Ord)
 
 
